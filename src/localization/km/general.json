@@ -1,0 +1,36 @@
+{
+  "general.prev": "ត្រលប់ក្រោម",
+  "general.next": "បន្ទាប់",
+  "general.result": "លទ្ធផល",
+  "general.regex": "Regex",
+  "general.text": "អក្សរ",
+  "general.watch": "មើល",
+  "general.start": "ចាប់ផ្ដើម",
+  "general.continue": "បន្ត",
+  "general.completedStep": "ជំហាននេះត្រូវបានបញ្ចប់",
+  "general.hintQuestion": "បង្ហាញចម្លើយ",
+  "general.reportStep": "រាយការណ៍",
+  "general.startLearning": "ចាប់ផ្ដើមរៀន",
+  "general.comingSoon": "មកកាន់ពេលនាពេលនេះ",
+  "general.becomeSponsor": "ក្លាយជាអ្នកឧបត្ថម្ភ",
+  "general.learn": "សិក្សា",
+  "general.playground": "សាកល្បងផ្ទាល់",
+  "general.cheatsheet": "សន្លឹកចំណាំសំខាន់ៗ",
+  "general.ourSponsors": "អ្នកឧបត្ថម្ភរបស់យើង",
+
+  "notFound.intro": "ទំព័រដែលអ្នកកំពុងរកមិនមានទេ។",
+  "notFound.button": "ត្រលប់ទៅទំព័រដើម",
+
+  "page.landing.title": "សិក្សា Regex - ពីមួយជំហានទៅមួយជំហាន, ពីមិនចេះទៅស្ទាត់ជំនាញ",
+  "page.learn.title": "សិក្សា Regex - វគ្គសិក្សាអន្តរកម្ម Regex",
+  "page.cheatsheet.title": "សិក្សា Regex - សន្លឹកចំណាំសំខាន់ៗ Regex",
+  "page.playground.title": "សិក្សា Regex - ការសាកល្បង Regex ផ្ទាល់",
+  "page.404.title": "សិក្សា Regex - មិនមានទំព័រ",
+
+  "page.landing.description": "សិក្សាអន្តរកម្ម Regex អនុវត្តន៍តាមកម្រិតរបស់អ្នក សាកល្បងនិងចែករំលែកចំណេះដឹងរបស់អ្នក",
+  "page.learn.description": "Learn Regex step by step. Complete the interactive tutorial that will make your learning easier and faster. សិក្សា Regex តាមជំហាននិមួយៗ បញ្ចប់វគ្គសិក្សានោះអ្នកនឹងទទួលបានការសិក្សាយ៉ាងងាយស្រួល និងរហ័ស",
+  "page.cheatsheet.description": "ពេលខ្លះអ្នកគ្រាន់តែត្រូវការចាំ Regex បន្តិចបន្តួច រំលឹកដោយមើលសន្លឹកចំណាំនោះអ្នកចងចាំហើយងាយស្រួល",
+  "page.playground.description": "អ្នកអាចដំឡើងនិងសាកល្បងតេស្ត Regex អនឡាញផ្ទាល់បាន",
+
+  "learn.safari.unsupportWarning": "Regex ក្នុងវគ្គនេះមិនអាចប្រើប្រាស់បាននៅក្នុងកម្មវិធីនេះ។ ប្រសិនបើអ្នកចង់ផុតវគ្គនេះ សូមចុចទីនេះ"
+}

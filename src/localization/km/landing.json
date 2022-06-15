@@ -1,0 +1,26 @@
+{
+  "landing.title": "សិក្សា Regex - ពីមួយជំហានទៅមួយជំហាន, ពីមិនចេះទៅស្ទាត់ជំនាញ",
+  "landing.description": "សិក្សា Regex គឺងាយស្រួលជាងអ្នកគិតទៅទៀត។ អ្នកអាចប្រើកម្មវិធីនេះយ៉ាងងាយស្រួលសម្រាប់ `ការសិក្សា`, `ការអនុវត្តន៍`, `ការសាកល្បង` និង `ការចែករំលែក` Regex",
+  "landing.imageAltText": "រូបភាពតំណាងនៃមនុស្សម្នាក់ជាមួយជើងគាត់នៅលើតុ",
+
+  "section.learn.title": "សិក្សា Regex",
+  "section.learn.content": "`Regular Expressions`, អក្សរកាត់តំណាងមាន Regex ឬ Regexp, are a string of characters created within the framework of Regex syntax rules. You can easily manage your data with Regex, which uses commands like finding, matching, and editing. Regex can be used in programming languages such as Python, SQL, Javascript, R, Google Analytics, Google Data Studio, and throughout the coding process. Learn regex online with examples and tutorials on RegexLearn now.",
+  "section.learn.imageAltText": "Illustration of a mountain with a flag on its summit.",
+
+  "section.cheatsheet.button": "រំលឹកឥឡូវ",
+  "section.cheatsheet.title": "សន្លឹកចំណាំ",
+  "section.cheatsheet.content": "ជាមួយការសិក្សា `សន្លឹកចំណាំ Regex` អ្នកអាចមើលរំលឹក Regex បានទាំងអស់នៃការប្រើប្រាស់ញាក់ញាប់សង្ខេបតែមួយទំព័រ និងអាចចូលមើលដោយផ្ទាល់សរុបសង្ខេបបន្ថែមនៃសន្លឹកចំណាំរបស់ Regex",
+  "section.cheatsheet.imageAltText": "Illustration of a man viewing pages through binoculars.",
+
+  "section.playground.title": "សាកល្បងផ្ទាល់",
+  "section.playground.content": "ប្រសិនបើអ្នកចង់បង្កើត Regex អ្នកអាចបង្កើតយ៉ាងងាយស្រួល និងតេស្តសាកល្បងដោយផ្ទាល់។ ជាមួយអ្នកតេស្ត Regex អ្នកអាចពិនិត្យធ្វើឱ្យមានសុពលភាព និងចែករំលែកជាមួយអ្នកដទៃដើម្បីចូលរួមការងាររបស់អ្នក",
+  "section.playground.imageAltText": "Illustration of a cat about to drop a full glass.",
+
+  "section.practice.title": "អនុវត្តន៍",
+  "section.practice.content": "ប្រសិនបើអ្នកបានបញ្ចប់តាមវគ្គសិក្សា វាគឺដល់ពេលដែលអ្នកត្រូវអនុវត្តន៍។ ក្នុងវគ្គអនុវត្តន៍ អ្នកអាចតេស្តសមត្ថភាពរបស់អ្នកតាមកម្រិតរបស់អ្នក។ មកដល់ឆាប់ៗនេះ!",
+  "section.practice.imageAltText": "Illustration of a woman taking notes from a book.",
+
+  "section.opensource.title": "កម្មវិធីបើកចំហ",
+  "section.opensource.content": "កម្មវិធីសិក្សា Regex ជាកម្មវិធីបើកចំហ ដែលចាំទទួលសហគមន៍ចូលរួមអភវិឌ្ឍ និងប្រើប្រាស់ដោយឥតគិតថ្លៃ។ ចូលរួមការអភិវឌ្ឍគម្រោងនេះ ធ្វើឱ្យអ្នកកើនឡើង ជំនាញ សិក្សា និងការចូលរួម។ អ្នកអាចចូលរួមជាមួយយើង និងគាំទ្រពួកយើងទីនេះ",
+  "section.opensource.imageAltText": "Illustration of a woman, a man, and a cat putting together puzzle pieces."
+}
