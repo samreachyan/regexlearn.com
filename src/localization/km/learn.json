@@ -11,92 +11,92 @@
   "steps.whatIsRegex.title": "អ្វីទៅជាអន្តរកម្មនៃ `Regex`?",
   "steps.whatIsRegex.description": "Regex គឺកន្សោមធម្មតាខ្លី ហើយជាតួអក្សរដែលបង្ហាញពីគំរូស្វែងរក។ វាត្រូវបានហៅជា 'Regex' ឬ 'Regexp` ។ វាជួយក្នុងការផ្គូផ្គង ស្វែងរក ឬគ្រប់គ្រងអត្ថបទ។ ចាប់ផ្តើមដោយការវាយបញ្ចូល `យល់ព្រម` នៅក្នុងវាល Regex ដើម្បីបន្តទៅជំហានដំបូង និងចូលទៅកាន់ការពិពណ៌នាលម្អិតបន្ថែមទៀត។ Regex ត្រូវបានគេប្រើដើម្បីស្វែងរក ឬជំនួសពាក្យនៅក្នុងអត្ថបទ។ It is especially used to find or replace words in texts. In addition, we can test whether a text complies with the rules we set.\\n\\n For example, let's say you have a list of filenames. And you only want to find files with the `pdf` extension. Following typing an expression `^\\w+\\.pdf$` will work. The meaning of the definitions in this expression will become clearer as the steps progress.",
 
-  "steps.basicMatchers.title": "Basic Matchers",
-  "steps.basicMatchers.description": "The character or word we want to find is written directly. It is similar to a normal search process. For example, to find the word `curious` in the text, type the same.",
+  "steps.basicMatchers.title": "មូលដ្ឋាននៃ Matchers",
+  "steps.basicMatchers.description": "តួអក្សរ ឬពាក្យដែលយើងចង់ស្វែងរកគឺអាចសរសេរដោយផ្ទាល់។ វាស្រដៀងនឹងដំណើរការស្វែងរកធម្មតា។ ឧទាហរណ៍ដើម្បីស្វែងរកពាក្យ `curious` ក្នុងអត្ថបទ អ្នកគ្រាន់តែសរសេរដូចគ្នា",
 
-  "steps.dotCharacter.title": "Dot `.`: Any Character",
-  "steps.dotCharacter.description": "The period `.` allows selecting any character, including special characters and spaces.",
+  "steps.dotCharacter.title": "សញ្ញាចុចមួយ `.` មានន័យថា រកតួអក្សរណាមួយ",
+  "steps.dotCharacter.description": "សញ្ញាចុចមួយ `.` អនុញ្ញាតឱ្យជ្រើសរើសតួអក្សរណាមួយ​ រួមទាំងតួអក្សរពិសេស និងចន្លោះ",
 
-  "steps.characterSet.title": "Character Sets `[abc]`",
-  "steps.characterSet.description": "If one of the characters in a word can be various characters, we write it in square brackets `[]` with all alternative characters. For example, to write an expression that can find all the words in the text, type the characters `a`, `e`, `i`, `o`, `u` adjacently within square brackets `[]`.",
+  "steps.characterSet.title": "សំណុំតួអក្សរ `[abc]`",
+  "steps.characterSet.description": "ប្រសិនបើតួអក្សរមួយក្នុងពាក្យមួយអាចជាតួអក្សរផ្សេងៗ​ យើងសរសេរវានៅក្នុងសញ្ញាខ្នៀប `[]` ជាមួយតួអក្សរណាមួយដែលអ្នកចង់រក។ ឧទាហរណ៍ ដើម្បីស្វែងរកកន្សោមពាក្យមួយក្នុងអត្ថបទ សូមវាយតួអក្សរ `a`, `e`, `i`, `o`, `u` នៅក្នុងសញ្ញាខ្នៀប `[]`",
 
-  "steps.negatedCharacterSet.title": "Negated Character Sets `[^abc]`",
-  "steps.negatedCharacterSet.description": "To find all words in the text below, except for `ber` and `bor`, type `e` and `o` side by side after the caret `^` character inside square brackets `[]`.",
+  "steps.negatedCharacterSet.title": "សំណុំតួអក្សរផ្ទុយ `[^abc]`",
+  "steps.negatedCharacterSet.description": "ដើម្បីស្វែងរកពាក្យទាំងអស់នៅក្នុងអត្ថបទខាងក្រោម លើកលែងតែ `ber` និង `bor` ដោយគ្រាន់តែវាយ `e` និង `o` បន្តបន្ទាប់គ្នាពីសញ្ញា `^` នៅក្នុងសញ្ញាខ្នៀប `[]`.",
 
-  "steps.range.title": "Letter Range`[a-z]`",
-  "steps.range.description": "To find the letters in the specified range, the starting letter and the ending letter are written in square brackets `[]` with a dash between them `-`. It is case-sensitive. Type the expression that will select all lowercase letters between `e` and `o`, including themselves.",
+  "steps.range.title": "ចន្លោះតួរអក្សរ `[a-z]`",
+  "steps.range.description": "ដើម្បីស្វែងរកអក្សរនៅក្នុងអត្ថបទដែលបានបញ្ជាក់ អក្សរចាប់ផ្តើម និងអក្សរបញ្ចប់ត្រូវបានសរសេរក្នុងខ្នៀប `[]` ជាមួយនឹងសញ្ញាចន្លោះពី​ ពាក្យមួយទៅពាក្យមួយ​ `-` វាគឺងាយស្រួល។ វាយកន្សោមពាក្យដែលនឹងជ្រើសរើសអក្សរតូចទាំងអស់ដែលចាប់ពី `e` ដល់ `o` ",
 
-  "steps.rangeNumber.title": "Number Range`[0-9]`",
-  "steps.rangeNumber.description": "To find the numbers in the specified range, the starting number and the ending number are written in square brackets `[]` with a dash `-` between them. Write an expression that will select all numbers between `3` and `6`, including themselves.",
+  "steps.rangeNumber.title": "ចន្លោះលេខ `[0-9]`",
+  "steps.rangeNumber.description": "ដើម្បីស្វែងរកលេខនៅក្នុងជួរដែលបានបញ្ជាក់ លេខចាប់ផ្តើម និងលេខបញ្ចប់ត្រូវបានសរសេរក្នុងខ្នៀប `[]` ជាមួយសញ្ញាដក `-` នៃចន្លោះលេខ។ សរសេរកន្សោមដែលនឹងជ្រើសរើសលេខចន្លោះលេខ `3` ដល់ `6`",
 
-  "examples.basicMatchers.title": "Practice: Basic Matcher",
-  "examples.basicMatchers.description": "Write the expression that will select the words `of` in the text.",
+  "examples.basicMatchers.title": "អនុវត្តន៍៖ មូលដ្ឋាននៃ Matcher",
+  "examples.basicMatchers.description": "សរសេរកន្សោមដែលនឹងជ្រើសរើសពាក្យ `of` ក្នុងអត្ថបទ",
 
-  "examples.dotCharacter.title": "Practice: Any Character",
-  "examples.dotCharacter.description": "Type the expression to select individual letters, numbers, spaces, and special characters in the text. The expression you type must match any character.",
+  "examples.dotCharacter.title": "អនុវត្តន៍៖ តួអក្សរណាមួយ",
+  "examples.dotCharacter.description": "វាយបញ្ចូលកន្សោមដើម្បីជ្រើសរើសអក្សរនីមួយៗ លេខ ដកឃ្លា និងតួអក្សរពិសេសនៅក្នុងអត្ថបទ។ កន្សោមដែលអ្នកវាយត្រូវតែផ្គូផ្គងតួអក្សរណាមួយ។",
 
-  "examples.characterSet.title": "Practice: Character Sets",
-  "examples.characterSet.description": "Write the phrase that matches each word in the text. The only characters that change are the initials of the words.",
+  "examples.characterSet.title": "អនុវត្តន៍៖​ សំណុំតួអក្សរ",
+  "examples.characterSet.description": "សរសេរឃ្លាដែលត្រូវនឹងពាក្យនីមួយៗក្នុងអត្ថបទ។ តួអក្សរតែមួយគត់ដែលផ្លាស់ប្តូរគឺជាអក្សរកាត់នៃពាក្យ។",
 
-  "examples.negatedCharacterSet.title": "Practice: Negated Character Sets",
-  "examples.negatedCharacterSet.description": "Write down the expression that will match anything other than the words `beor` and `beur` in the text. Do this using the negated character set.",
+  "examples.negatedCharacterSet.title": "អនុវត្តន៍៖​ សំណុំតួអក្សរផ្ទុយ",
+  "examples.negatedCharacterSet.description": "សរសេរកន្សោមដែលនឹងផ្គូផ្គងអ្វីផ្សេងក្រៅពីពាក្យ 'beor' និង 'beur' នៅក្នុងអត្ថបទ។ ធ្វើដូចនេះដោយប្រើសំណុំតួអក្សរអវិជ្ជមាន។",
 
-  "examples.range.title": "Practice: Letter Range",
-  "examples.range.description": "Write the expression that will select the letters from `g` to `k` in the text.\\n`g` and `k` letters should also be included in this range.",
+  "examples.range.title": "អនុវត្តន៍៖​ ចន្លោះតួរអក្សរ",
+  "examples.range.description": "សរសេរកន្សោមដែលនឹងជ្រើសរើសអក្សរពី `g` ទៅ `k` នៅក្នុងអត្ថបទ។\\n`g` និងអក្សរ `k` គួរតែបញ្ចូលក្នុងជួរនេះផងដែរ",
 
-  "examples.rangeNumber.title": "Practice: Number Range",
-  "examples.rangeNumber.description": "Type an expression to select numbers from `2` to `7` in the text.\\n`2` and `7` should also be included in this range.",
+  "examples.rangeNumber.title": "អនុវត្តន៍៖​ ចន្លោះលេខ",
+  "examples.rangeNumber.description": "វាយកន្សោមដើម្បីជ្រើសរើសលេខពី `2` ដល់ `7` ក្នុងអត្ថបទ។\\n`2` និង `7` គួរតែបញ្ចូលក្នុងជួរនេះផងដែរ",
 
-  "steps.repetitions.title": "Repetitions",
-  "steps.repetitions.description": "Some special characters are used to specify how many times a character will be repeated in the text. These special characters are the plus `+`, the asterisk `*`, and the question mark `?`.",
+  "steps.repetitions.title": "ពាក្យដដែលៗ",
+  "steps.repetitions.description": "តួអក្សរពិសេសមួយចំនួនត្រូវបានប្រើដើម្បីបញ្ជាក់ចំនួនដងដែលតួអក្សរនឹងត្រូវបានធ្វើម្តងទៀតនៅក្នុងអត្ថបទ។ តួអក្សរពិសេសទាំងនេះគឺ បូក `+` សញ្ញាផ្កាយ `*` និងសញ្ញាសួរ `?`",
 
-  "steps.asterisk.title": "Asterisk `*`",
-  "steps.asterisk.description": "We put an asterisk `*` after a character to indicate that the character may either not match at all or can match many times. For example, indicate that the letter `e` should never occur in the text, or it can occur once or more side by side.",
+  "steps.asterisk.title": "សញ្ញាផ្កាយ `*`",
+  "steps.asterisk.description": "យើងដាក់សញ្ញាផ្កាយ `*` បន្ទាប់ពីតួអក្សរ ដើម្បីបង្ហាញថាតួអក្សរអាចមិនត្រូវគ្នាទាំងស្រុង ឬអាចផ្គូផ្គងច្រើនដង។ ឧទាហរណ៍ បង្ហាញថាអក្សរ `e` មិនគួរកើតឡើងក្នុងអត្ថបទទេ ឬវាអាចកើតឡើងម្តង ឬច្រើនដង",
 
-  "steps.plusCharacter.title": "Plus Sign `+`",
-  "steps.plusCharacter.description": "To indicate that a character can occur one or more times, we put a plus sign `+` after a character. For example, indicate that the letter `e` can occur one or more times in the text.",
+  "steps.plusCharacter.title": "សញ្ញាបូក `+`",
+  "steps.plusCharacter.description": "ដើម្បីបង្ហាញថាតួអក្សរអាចកើតឡើងមួយ ឬច្រើនដង យើងដាក់សញ្ញាបូក `+` បន្ទាប់ពីតួអក្សរមួយ។ ឧទាហរណ៍ បង្ហាញថាអក្សរ `e` អាចកើតឡើងមួយ ឬច្រើនដងក្នុងអត្ថបទ",
 
-  "steps.questionMark.title": "Question Mark `?`",
-  "steps.questionMark.description": "To indicate that a character is optional, we put a `?` question mark after a character. For example, indicate that the following letter `u` is optional.",
+  "steps.questionMark.title": "សញ្ញា​សួរ `?`",
+  "steps.questionMark.description": "ដើម្បីបង្ហាញថាតួអក្សរគឺស្រេចចិត្តអាចមានឬមិនមាន យើងដាក់សញ្ញាសួរ `?` បន្ទាប់ពីតួអក្សរមួយ។ ជាឧទាហរណ៍ បង្ហាញថាអក្សរខាងក្រោម 'u' គឺស្រេចចិត្ត។",
 
-  "steps.quantifier.title": "Curly Braces - 1",
-  "steps.quantifier.description": "To express a certain number of occurrences of a character, we write curly braces `{n}` along with how many times we want it to occur at the end. For example, indicate that the following letter `e` can occur only `2` times.",
+  "steps.quantifier.title": "សញ្ញា​របាំង - 1",
+  "steps.quantifier.description": "ដើម្បីបង្ហាញចំនួនជាក់លាក់នៃការកើតឡើងនៃតួអក្សរមួយ យើងសរសេសញ្ញា​របាំង `{n}` រួមជាមួយនឹងចំនួនដងដែលយើងចង់ឱ្យវាកើតឡើងនៅចុងបញ្ចប់។ ជាឧទាហរណ៍ បង្ហាញថាអក្សរខាងក្រោម `e` អាចកើតឡើងតែ `2` ដងប៉ុណ្ណោះ។",
 
-  "steps.quantifierMin.title": "Curly Braces - 2",
-  "steps.quantifierMin.description": "To express at least a certain number of occurrences of a character, we write the end of the character at least how many times we want it to occur, with a comma `,` at the end, and inside curly braces `{n, }`. For example, indicate that the following letter `e` can occur at least `3` times.",
+  "steps.quantifierMin.title": "សញ្ញា​របាំង - 2",
+  "steps.quantifierMin.description": "ដើម្បីបង្ហាញយ៉ាងហោចណាស់ចំនួនជាក់លាក់នៃការកើតឡើងនៃតួអក្សរមួយ យើងសរសេរចុងបញ្ចប់នៃតួអក្សរយ៉ាងហោចណាស់ប៉ុន្មានដងដែលយើងចង់ឱ្យវាកើតឡើង ដោយប្រើសញ្ញាក្បៀស `,` នៅចុងបញ្ចប់ និងនៅខាងក្នុងសញ្ញា​របាំង `{n, }`។ ឧទាហរណ៍ បង្ហាញថាអក្សរ `e` ខាងក្រោមអាចកើតឡើងយ៉ាងហោចណាស់ `3` ដង។",
 
-  "steps.quantifierRange.title": "Curly Braces - 3",
-  "steps.quantifierRange.description": "To express the occurrence of a character in a certain number range, we write curly braces `{x,y}` with the interval we want to go to the end. For example, indicate that the following letter `e` can only occur between `1` and `3`.",
+  "steps.quantifierRange.title": "សញ្ញា​របាំង - 3",
+  "steps.quantifierRange.description": "ដើម្បីបង្ហាញពីការកើតឡើងនៃតួអក្សរនៅក្នុងជួរលេខជាក់លាក់មួយ យើងសរសេរសញ្ញា​របាំង `{x,y}` ជាមួយនឹងចន្លោះពេលដែលយើងចង់ទៅចុងបញ្ចប់។ ឧទាហរណ៍ បង្ហាញថាអក្សរខាងក្រោម `e` អាចកើតឡើងរវាង `1` និង `3` ប៉ុណ្ណោះ។",
 
-  "examples.asterisk.title": "Practice: Asterisk `*`",
-  "examples.asterisk.description": "Use the asterisk `*` to write the expression that will select each word, suitable for the absence of the letter `e` in the text and the presence of one or more.",
+  "examples.asterisk.title": "អនុវត្តន៍៖​ សញ្ញាផ្កាយ `*`",
+  "examples.asterisk.description": "ប្រើសញ្ញាផ្កាយ `*` ដើម្បីសរសេរកន្សោមដែលនឹងជ្រើសរើសពាក្យនីមួយៗ ដែលសមរម្យសម្រាប់អវត្ដមាននៃអក្សរ `e` នៅក្នុងអត្ថបទ និងវត្តមានរបស់មួយ ឬច្រើន។",
 
-  "examples.plusCharacter.title": "Practice: Plus Sign `+`",
-  "examples.plusCharacter.description": "Write the expression using the plus sign `+` to select words in which the letter `e` occurs one or more times in the text.",
+  "examples.plusCharacter.title": "អនុវត្តន៍៖​ សញ្ញាបូក `+`",
+  "examples.plusCharacter.description": "សរសេរកន្សោមដោយប្រើសញ្ញាបូក `+` ដើម្បីជ្រើសរើសពាក្យដែលអក្សរ `e` កើតឡើងមួយដង ឬច្រើនដងក្នុងអត្ថបទ។",
 
-  "examples.questionMark.title": "Practice: Question Mark `?`",
-  "examples.questionMark.description": "Write the expression indicating that the letter `n` is optional in the text, using the question mark `?`. Thus, both the words `a` and `an` can be selected.",
+  "examples.questionMark.title": "អនុវត្តន៍៖: សញ្ញា​សួរ `?`",
+  "examples.questionMark.description": "សរសេរកន្សោមដែលបង្ហាញថាអក្សរ `n` ជាជម្រើសក្នុងអត្ថបទ ដោយប្រើសញ្ញាសួរ `?` ដូច្នេះ ទាំងពាក្យ `a` និង `an` អាចត្រូវបានជ្រើសរើស។",
 
-  "examples.quantifier.title": "Practice: Curly Braces - 1",
-  "examples.quantifier.description": "Write the expression using curly braces `{}` that will find texts containing `4` numbers side by side.",
+  "examples.quantifier.title": "អនុវត្តន៍៖​ សញ្ញារបាំង - 1",
+  "examples.quantifier.description": "សរសេរកន្សោមដោយប្រើសញ្ញារបាំង `{}` ដែលនឹងរកឃើញអត្ថបទដែលមានលេខ `4` នៅសងខាង។",
 
-  "examples.quantifierMin.title": "Practice: Curly Braces - 2",
-  "examples.quantifierMin.description": "Write the expression using curly braces `{}` that will find texts containing at least `2` numbers side by side.",
+  "examples.quantifierMin.title": "អនុវត្តន៍៖​ សញ្ញារបាំង - 2",
+  "examples.quantifierMin.description": "សរសេរកន្សោមដោយប្រើសញ្ញារបាំង `{}` ដែលនឹងរកឃើញអត្ថបទដែលមានយ៉ាងហោចណាស់ `2` លេខនៅសងខាង។",
 
-  "examples.quantifierRange.title": "Practice: Curly Braces - 3",
-  "examples.quantifierRange.description": "Write the expression using curly braces `{}` that will find texts containing at least `1` and at most `4` numbers side by side.",
+  "examples.quantifierRange.title": "អនុវត្តន៍៖​ សញ្ញារបាំង - 3",
+  "examples.quantifierRange.description": "សរសេរកន្សោមដោយប្រើសញ្ញារបាំង `{}` ដែលនឹងរកឃើញអត្ថបទដែលមានយ៉ាងហោចណាស់ `1` និងលេខ `4` ច្រើនបំផុតនៅសងខាង។",
 
-  "steps.groupping.title": "Parentheses `( )`: Grouping",
-  "steps.groupping.description": "We can group an expression and use these groups to reference or enforce some rules. To group an expression, we enclose `()` in parentheses. For now just group `haa` below.",
+  "steps.groupping.title": "សញ្ញាវង់ក្រចក `( )`: ការដាក់ជាក្រុម",
+  "steps.groupping.description": "យើងអាចដាក់កន្សោមមួយក្រុម ហើយប្រើក្រុមទាំងនេះដើម្បីយោង ឬអនុវត្តច្បាប់មួយចំនួន។ ដើម្បីដាក់កន្សោមមួយក្រុម យើងភ្ជាប់ `()` ក្នុងវង់ក្រចក។ សម្រាប់ពេលនេះគ្រាន់តែក្រុម `haa` ខាងក្រោម។",
 
-  "steps.groupReference.title": "Referencing a Group",
-  "steps.groupReference.description": "The words `ha` and `haa` are grouped below. The first group is used by writing `\\1` to avoid rewriting. Here `1` denotes the order of grouping. Type `\\2` at the end of the expression to refer to the second group.",
+  "steps.groupReference.title": "កំណត់ការយោងក្រុម",
+  "steps.groupReference.description": "ពាក្យ `ha` និង `haa` ត្រូវបានដាក់ជាក្រុមខាងក្រោម។ ក្រុមទីមួយត្រូវបានប្រើដោយការសរសេរ `\\ 1` ដើម្បីជៀសវាងការសរសេរឡើងវិញ។ នៅទីនេះ `1` បង្ហាញពីលំដាប់នៃក្រុម។ វាយ `\\2` នៅចុងបញ្ចប់នៃកន្សោម ដើម្បីយោងទៅក្រុមទីពីរ។",
 
-  "steps.nonCapturingGroupping.title": "Parentheses `(?: )`: Non-capturing Grouping",
-  "steps.nonCapturingGroupping.description": "You can group an expression and ensure that it is not captured by references. For example, below are two groups. However, the first group reference we denote with `\\1` actually indicates the second group, as the first is a non-capturing group.",
+  "steps.nonCapturingGroupping.title": "សញ្ញាវង់ក្រចក `(?: )`: ការមិនចាប់យកដាក់ជាក្រុម",
+  "steps.nonCapturingGroupping.description": "អ្នក​អាច​ដាក់​កន្សោម​មួយ​ជា​ក្រុម ហើយ​ធានា​ថា​វា​មិន​ត្រូវ​បាន​ចាប់​យក​ដោយ​ឯកសារ​យោង។ ឧទាហរណ៍ខាងក្រោមានពីរក្រុម ទោះយ៉ាងណាក៏ដោយ ឯកសារយោងក្រុមទីមួយដែលយើងបង្ហាញដោយ `\\ 1` ពិតជាបង្ហាញពីក្រុមទីពីរ ដោយសារក្រុមទីមួយគឺជាក្រុមដែលមិនចាប់យក។",
 
-  "steps.pipeCharacter.title": "Pipe Character `|`",
-  "steps.pipeCharacter.description": "It allows to specify that an expression can be in different expressions. Thus, all possible statements are written separated by the pipe sign `|`. This differs from charset `[abc]`, charsets operate at the character level. Alternatives are at the expression level. For example, the following expression would select both `cat` and `Cat`. Add another pipe sign `|` to the end of the expression and type `rat` so that all words are selected.",
+  "steps.pipeCharacter.title": "តួអក្សរបញ្ឈរ `|`",
+  "steps.pipeCharacter.description": "វាអនុញ្ញាតឱ្យបញ្ជាក់ថាកន្សោមមួយអាចស្ថិតនៅក្នុងកន្សោមផ្សេងៗគ្នា។ ដូច្នេះ សេចក្តីថ្លែងការណ៍ដែលអាចធ្វើបានទាំងអស់ត្រូវបានសរសេរបំបែកដោយសញ្ញាបញ្ឈរ `|` ។ វាខុសពីសំណុំតួអក្សរ `[abc]` សំណុំតួអក្សរដំណើរការនៅកម្រិតតួអក្សរ។ ជម្មើសជំនួសគឺនៅកម្រិតកន្សោម។ ឧទាហរណ៍ កន្សោមខាងក្រោមនឹងជ្រើសរើសទាំង 'cat' និង 'Cat' ។ បន្ថែមសញ្ញាបំពង់មួយទៀត `|` ទៅចុងបញ្ចប់នៃកន្សោម ហើយវាយ `rat` ដូច្នេះពាក្យទាំងអស់ត្រូវបានជ្រើសរើស។",
 
   "steps.escapeCharacter.title": "Escape Character `\\`",
   "steps.escapeCharacter.description": "There are special characters that we use when writing regex. `{ } [ ] / \\ + * . $^ | ?` Before we can select these characters themselves, we need to use an escape character `\\`. For example, to select the dot `.` and asterisk `*` characters in the text, let's add an escape character `\\` before it.",
