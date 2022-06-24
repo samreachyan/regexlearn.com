@@ -4,7 +4,7 @@
   "landing.imageAltText": "រូបភាពតំណាងនៃមនុស្សម្នាក់ជាមួយជើងគាត់នៅលើតុ",
 
   "section.learn.title": "សិក្សា Regex",
-  "section.learn.content": "`Regular Expressions`, អក្សរកាត់តំណាងមាន Regex ឬ Regexp, are a string of characters created within the framework of Regex syntax rules. You can easily manage your data with Regex, which uses commands like finding, matching, and editing. Regex can be used in programming languages such as Python, SQL, Javascript, R, Google Analytics, Google Data Studio, and throughout the coding process. Learn regex online with examples and tutorials on RegexLearn now.",
+  "section.learn.content": "`Regular Expressions` អក្សរកាត់មាន Regex ឬ Regexp គឺជាខ្សែអក្សរនៃតួអក្សរដែលបានបង្កើតឡើងក្នុងក្របខ័ណ្ឌនៃច្បាប់វាក្យសម្ព័ន្ធ Regex ។ អ្នកអាចគ្រប់គ្រងទិន្នន័យរបស់អ្នកយ៉ាងងាយស្រួលជាមួយ Regex ដែលប្រើពាក្យបញ្ជាដូចជាការស្វែងរក ការផ្គូផ្គង និងការកែសម្រួលជាដើម។ Regex អាចត្រូវបានប្រើជាភាសាសរសេរកម្មវិធីដូចជា Python, SQL, Javascript, R, Google Analytics, Google Data Studio និងពេញមួយដំណើរការសរសេរកូដ។ រៀន regex តាមអ៊ីនធឺណិតជាមួយនឹងឧទាហរណ៍ និងការបង្រៀននៅលើ RegexLearn ឥឡូវនេះ",
   "section.learn.imageAltText": "Illustration of a mountain with a flag on its summit.",
 
   "section.cheatsheet.button": "រំលឹកឥឡូវ",
